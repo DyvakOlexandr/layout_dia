@@ -1,0 +1,10 @@
+button {
+  width: 100%;
+
+  @include on-tablet {
+    display: block;
+    float: left;
+    width: 264px;
+    margin-left: 0;
+  }
+}

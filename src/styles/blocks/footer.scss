@@ -1,0 +1,61 @@
+.footer {
+  background-color: #2c2c2c;
+  border: none;
+
+  &--block {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    @include on-tablet {
+      padding-inline: 41px;
+    }
+
+    @include on-small-desktop {
+      padding-inline: 54px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    @include on-desktop {
+      padding-inline: 54px;
+      flex-direction: row;
+    }
+    @include on-the-design {
+      padding-inline: 227px;
+      flex-direction: row;
+    }
+    @include on-large-screens {
+      padding-inline: 707px;
+      flex-direction: row;
+    }
+  }
+
+  &--content {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    align-items: start;
+    text-align: left;
+  }
+
+  &--menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include on-tablet {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    @include on-small-desktop {
+      gap: 64px;
+    }
+  }
+}
