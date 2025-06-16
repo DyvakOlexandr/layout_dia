@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-
+  padding-right: 52px;
   @include on-tablet {
     min-width: 558px;
     margin: auto;
@@ -45,13 +45,10 @@
 
 .nav {
   &__list--header {
-    position: active;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    margin-left: 524px;
     list-style: none;
     gap: 48px;
-
-    display: flex;
   }
 
   &__link {
@@ -64,14 +61,6 @@
     font-size: 13px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    &--menu {
-      display: inline-block;
-      padding: 8px 0;
-      margin-right: 20px;
-      &--about_us {
-        margin-right: 0;
-      }
-    }
 
     &::after {
       content: '';

@@ -71,6 +71,22 @@
     display: block;
 
     padding-bottom: 40px;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  &--address {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+    text-decoration: none;
+
+    padding-bottom: 40px;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &--social-media {
@@ -94,7 +110,7 @@
   }
 }
 
-.contuct_us--block {
+.contact_us--block {
   display: flex;
   flex-direction: column;
   padding-top: 80px;
@@ -111,6 +127,8 @@
 
 form {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 
   @include on-tablet {
     width: 362px;
@@ -128,17 +146,6 @@ form {
 .social-media__icon:hover {
   transform: scale(1.4);
   fill: #2060f6;
-}
-
-.contact_us--address {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  color: #fff;
-  text-decoration: none;
-
-  padding-bottom: 40px;
 }
 
 .social-media {
@@ -183,7 +190,7 @@ textarea {
   justify-content: center;
   margin-bottom: 56px;
   resize: none;
-
+  color: #fff;
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -199,7 +206,15 @@ textarea {
   }
 }
 
-.send--btn {
-  display: flex;
-  margin-left: 0;
+.button-main {
+  border-radius: 8px;
+
+  background: rgb(20, 78, 213);
+  color: rgb(255, 255, 255);
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
 }

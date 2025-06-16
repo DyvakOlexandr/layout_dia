@@ -1,42 +1,12 @@
 .work {
   background-color: #fff;
-  border-radius: 30px;
-  padding-inline: 20px;
-
-  @include on-tablet {
-    padding-inline: 41px;
-  }
-
-  @include on-small-desktop {
-    padding-inline: 54px;
-  }
-
-  @include on-desktop {
-    padding-inline: 118px;
-  }
-
-  @include on-the-design {
-    padding-inline: 227px;
-  }
-
-  @include on-large-screens {
-    padding-inline: 707px;
-  }
 
   &__container {
     display: flex;
     flex-direction: column;
-    gap: 56px;
+    gap: 64px;
     margin: 0;
-    padding: 72px 0;
-
-    @include on-tablet {
-      padding: 128px 0;
-    }
-
-    @include on-small-desktop {
-      padding-bottom: 134px;
-    }
+    padding: 128px 0 134px;
   }
 
   &--title {
@@ -63,11 +33,12 @@
   }
 
   &--text {
+    color: rgb(108, 120, 139);
     font-family: Poppins, sans-serif;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
     text-align: center;
-    color: #6c788b;
   }
 
   &__cards {
