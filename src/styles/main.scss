@@ -16,10 +16,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;
-  width: 100%;
-
-
+  background-color: #f2f6fa;
 }
 
 * {
@@ -28,16 +25,6 @@ body {
 
 .wrapper {
   display: grid;
-  background-color: #f2f6fa;
-}
-
-h1 {
-  margin: 0;
-  font-family: Poppins, sans-serif;
-  font-weight: 600;
-  font-size: 52px;
-  line-height: 120%;
-  letter-spacing: -2px;
 }
 
 h2 {
@@ -63,10 +50,6 @@ h6 {
   margin: 0;
 }
 
-body {
-  margin: 0;
-}
-
 button {
   height: 56px;
 
@@ -84,7 +67,7 @@ button {
   font-size: 15px;
   line-height: 100%;
   color: #fff;
-  background-color: #2060f6;
+  background-color: rgb(20, 78, 213);
   border-radius: 8px;
   margin-inline: auto;
 

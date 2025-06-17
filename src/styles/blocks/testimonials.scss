@@ -4,42 +4,27 @@
   gap: 85px;
 
   @include on-tablet {
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 148px;
-    margin-left: 41px;
-    margin-right: 41px;
+    margin-left: 20px;
     margin-bottom: 148px;
   }
 
   @include on-small-desktop {
-    margin-left: 54px;
-    margin-right: 54px;
-    padding-top: 260px;
+    margin-left: 41;
     margin-bottom: 148px;
   }
 
   @include on-desktop {
     margin-left: 54px;
-    margin-right: 54px;
-    margin-bottom: 148px;
-  }
-
-  @include on-small-desktop {
-    margin-left: 118px;
-    margin-right: 118px;
     margin-bottom: 148px;
   }
 
   @include on-the-design {
     margin-left: 227px;
-    margin-right: 227px;
     margin-bottom: 148px;
   }
 
   @include on-large-screens {
     margin-left: 707px;
-    margin-right: 707px;
     margin-bottom: 148px;
   }
 
@@ -70,6 +55,8 @@
 
     @include on-tablet {
       gap: 20px;
+      display: flex;
+      align-items: center;
     }
 
     @include on-small-desktop {
@@ -92,18 +79,26 @@
     padding-bottom: 500px;
 
     @include on-tablet {
-      height: 478px;
-      padding-inline: 98px;
+      height: 456px;
+      width: 280px;
     }
 
     @include on-small-desktop {
+      height: 478px;
+      width: 558;
+    }
+    @include on-desktop {
       height: 456px;
-      padding-inline: 48px;
+      width: 292px;
     }
 
     @include on-the-design {
       height: 494px;
-      padding-inline: 56px;
+      width: 362px;
+    }
+    @include on-large-screens {
+      height: 494px;
+      width: 362px;
     }
 
     &:hover {
@@ -133,8 +128,8 @@
     text-align: center;
     color: rgb(108, 120, 139);
     font-size: 13px;
-font-weight: 600;
-line-height: 150%;
+    font-weight: 600;
+    line-height: 150%;
   }
 
   &--name {
@@ -143,8 +138,8 @@ line-height: 150%;
     text-align: center;
     margin-top: 16px;
     font-size: 13px;
-font-weight: 600;
-line-height: 150%;
+    font-weight: 600;
+    line-height: 150%;
   }
 }
 
@@ -155,5 +150,5 @@ line-height: 150%;
   text-align: center;
   text-transform: uppercase;
   color: #c0cdd7;
-margin-top: 4px;
+  margin-top: 4px;
 }
