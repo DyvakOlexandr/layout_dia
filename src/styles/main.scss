@@ -11,10 +11,15 @@
 @import 'blocks/fonts';
 @import 'utils/mixins';
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   width: 100%;
+
+
 }
 
 * {
